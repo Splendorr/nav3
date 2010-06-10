@@ -1,0 +1,101 @@
+body {
+	margin:50px 0px; padding:0px;
+	text-align:center;
+}
+
+#Content {
+	width:800px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+}
+
+#logo {
+	float:left;
+	background:url(i/logo.png) no-repeat;
+	width: 284px:
+	height: 109px;
+}
+
+/* Navigation Format */
+#places {
+	width:475px;
+	height:34px;
+	background: url(i/navigation_sprite.jpg) no-repeat;
+	position:relative;
+	float:right;
+}
+
+#places li {
+    margin: 0; padding: 0; list-style: none;
+    position: absolute; top: 0;
+}
+
+#places li, #places a {
+    height: 34px; 
+    display: block;
+}
+
+#who {
+	left: 0;     
+	width: 108px;
+}
+#what {
+	left: 108px; 
+	width: 108px;
+}
+#resources {
+	left: 220px; 
+	width: 95px;
+}
+#partners {
+	left: 316px; 
+	width: 88px;
+}
+#contact {
+	left: 404px; 
+	width: 71px;
+}
+
+#who a:hover {
+	background: url(i/navigation_sprite.jpg)
+	0 -34px no-repeat;
+}
+#what a:hover {
+    background: url(i/navigation_sprite.jpg)
+    -110px -34px no-repeat;
+}
+#resources a:hover {
+    background: url(i/navigation_sprite.jpg)
+    -220px -34px no-repeat;
+}
+#partners a:hover {
+    background: url(i/navigation_sprite.jpg)
+    -316px -34px no-repeat;
+}
+#contact a:hover {
+    background: url(i/navigation_sprite.jpg)
+    -404px -34px no-repeat;
+}
+
+
+/*Quote Cycle */
+
+#quote_cycle {
+	float:center;
+	position:relative;
+	left:100px;
+	margin-top: 120px;
+}	
+#quote_cycle IMG {
+	position:absolute;
+	z-index:8;
+	opacity:0.0;
+}
+#quote_cycle IMG.active {
+	z-index:10;
+	opacity:1.0;
+}
+#quote_cycle IMG.last-active {
+	z-index:9;
+}
